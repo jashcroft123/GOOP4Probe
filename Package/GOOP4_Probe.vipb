@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-14 14:12:50" Modified_Date="2024-03-20 15:38:56" Creator="ja151016" Comments="" ID="ddfcbed38c61e268995d0b80122d6bf6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-14 14:12:50" Modified_Date="2024-04-04 16:05:43" Creator="ja151016" Comments="" ID="47090e9b17d817513264feddbc78e620">
   <Library_General_Settings>
     <Package_File_Name>Renishaw_lib_GOOP4_Probe</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>builds</Library_Output_Folder>
@@ -46,9 +46,9 @@
         <Path/>
       </Examples>
       <Custom_Probes>
-        <LLB>false</LLB>
-        <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <LLB>true</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path>&lt;vi.lib&gt;\_probes\Renishaw\GOOP4.llb</Path>
       </Custom_Probes>
       <Custom_Errors>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
@@ -122,6 +122,9 @@
       <Exclusions>
         <Path>GOOPProbe.lvproj</Path>
       </Exclusions>
+      <Toplevel_VIs>
+        <Path>GOOP PROBE.vi</Path>
+      </Toplevel_VIs>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
